@@ -1,1 +1,102 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Arms License Certificate</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', serif;
+      background: white;
+      color: black;
+      width: 8.27in;
+      height: 11.69in;
+      padding: 2cm;
+      box-sizing: border-box;
+    }
+    .header {
+      text-align: center;
+    }
+    .header img {
+      height: 80px;
+      margin: 0 10px;
+    }
+    h1 {
+      font-size: 20pt;
+      color: darkgreen;
+    }
+    .info {
+      margin-top: 30px;
+      font-size: 14pt;
+      line-height: 1.6;
+    }
+    .label {
+      font-weight: bold;
+    }
+    .qr {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .card-qr {
+      position: absolute;
+      bottom: 2cm;
+      right: 2cm;
+    }
+    .signature {
+      margin-top: 50px;
+    }
+    .signature-line {
+      margin-top: 40px;
+    }
+    .watermark {
+      position: absolute;
+      top: 40%;
+      left: 25%;
+      font-size: 50px;
+      color: rgba(0, 0, 0, 0.05);
+      transform: rotate(-30deg);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="watermark">VERIFICATION COPY</div>
+
+  <div class="header">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/State_emblem_of_Pakistan.svg/1024px-State_emblem_of_Pakistan.svg.png" alt="Pakistan Emblem">
+    <h1>Islamic Republic of Pakistan</h1>
+    <h2>Ministry of Interior</h2>
+    <h3>Arms License Verification Certificate</h3>
+  </div>
+
+  <div class="info">
+    <div><span class="label">License No:</span> AC99991171230</div>
+    <div><span class="label">Name:</span> Hunzallah Tariq</div>
+    <div><span class="label">Father's Name:</span> Tariq Mahmood</div>
+    <div><span class="label">CNIC:</span> 35302-1050612-7</div>
+    <div><span class="label">Weapon Type:</span> 9mm Pistol</div>
+    <div><span class="label">Weapon ID:</span> A2131</div>
+    <div><span class="label">Quantity:</span> 500</div>
+    <div><span class="label">Present Address:</span> Post Office Khas, Village 7/4L, Tehsil & District Okara</div>
+    <div><span class="label">Permanent Address:</span> Post Office Khas, Village 7/4L, Tehsil & District Okara</div>
+    <div><span class="label">Date of Issue:</span> 25-02-2025</div>
+    <div><span class="label">Date of Expiry:</span> 27-02-2030</div>
+  </div>
+
+  <div class="qr">
+    <p>Scan to verify:</p>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://dr59111.github.io/arms-license-verification/&size=150x150" alt="QR Code">
+    <p>https://dr59111.github.io/arms-license-verification/</p>
+  </div>
+
+  <div class="signature">
+    <div class="signature-line">Authorized Officer: ________________________</div>
+    <div class="signature-line">Designation: ______________________________</div>
+    <div class="signature-line">Official Stamp & Date: _____________________</div>
+  </div>
+
+  <div class="card-qr">
+    <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://dr59111.github.io/arms-license-verification/&size=80x80" alt="QR Code for Card">
+  </div>
+
+</body>
+</html>
